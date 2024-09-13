@@ -1,0 +1,278 @@
+/*Generales*/
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('Agrandir.otf') format('otf');
+}
+
+/*  FIN GENERALES   */
+
+.logo{
+    width: 55px;
+    display: flex;
+    align-items: center; /* Alinea los elementos verticalmente */
+}
+
+.main-content {
+    max-height: 83vh; /* Establece la altura máxima del main al 80% del viewport height */
+    overflow-y: auto; /* Habilita el desplazamiento vertical si el contenido excede la altura máxima */
+  }
+
+.logo h4 {
+    font-family: 'Agrandir', sans-serif;
+    font-size: 30px;
+    margin: 0; /* Elimina el margen por defecto del h4 */
+    color: white; /* Color del texto */
+    text-shadow: 1px 1px 0 black;
+    user-select: none;
+}
+
+
+
+.logo h4 .col-1 {
+    color: white; /* Color para la parte "Biblio" */
+}
+
+.logo h4 .col-2{ 
+    color: #FF6100;
+}
+
+.logo img{
+    width:100%;
+    vertical-align: top;
+    width: 55px;
+    margin-right: 0.1vmax; 
+}
+
+
+.pos-btn{
+    margin-left: 900px;
+    align-self: center;
+}
+
+
+.search-icon {
+    position: relative;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6c757d;
+}
+
+/* BARRA DE BUSQUEDA */
+#searchForm {
+    display:flex;
+    margin-left: 17vmax;
+    align-items: center; 
+    inline-size: 29vmax;
+    align-self: center;
+}
+
+.linea-delgada {
+    border-bottom: 1px solid #A6A6A6 ;
+    margin: 1% ; 
+  }
+
+#notis {
+    margin-left: 20vmax;
+    margin-right: 2vmax;
+}
+
+#searchButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 15px; /* Añadimos un pequeño margen entre el botón de búsqueda y el campo de texto */
+}
+
+/*  CONTENIDO   */
+
+.nav-texto-negro .nav-link {
+    color: black;
+}
+
+.bgcol{
+    background-color: #e46e25;
+}
+
+.nav-link.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-menu a {
+    color: black;
+}
+
+.dropdown-menu {
+    background-color: #e46e25; /* Cambia el color de fondo del menú desplegable */
+}
+
+.dropdown-menu.show {
+    display: block; /* Asegura que el menú desplegable permanezca visible */
+}
+
+/* Estilo de la Publicación */
+.publicacion {
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 20px;
+}
+
+.publicacion h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.publicacion p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Estilo del Botón "Ver más" */
+.publicacion a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.publicacion a:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.main .limpiar{
+clear: both;
+}
+
+footer{
+    position: bottom;
+    bottom: 0;
+    background-color: #007bff;
+    background-attachment: fixed;
+    width: 100%;
+    height: 50px;
+    padding: 35px;
+    box-sizing: border-box;
+    text-align: center;
+    background-size: 30%;
+    background-position: bottom;
+}
+
+@media screen and (max-width:900px){
+    body{
+        width: 32.4%;
+    }
+}
+@media screen and (max-width:600px){
+    body{
+        width: 48.4%;
+    }
+}
+
+.centered-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  /* Estilo para el contenedor del formulario */
+  .form-container {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #c5c5c5;
+  }
+  /* Estilo para el botón */
+  .btn-custom {
+    border-radius: 25px;
+  }
+
+
+  /*  ESTILOS PARA LAS SUGERENCIAS */
+  .autocomplete {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-top: none;
+    list-style-type: none;
+    margin-top: 0;
+    padding-left: 0;
+    width: 100%;
+    z-index: 1000;
+    max-height: 200px; /* Establece la altura máxima de la lista de sugerencias */
+    overflow-y: auto; /* Agrega una barra de desplazamiento vertical si es necesario */
+  }
+
+  /* Estilo para cada elemento de la lista de sugerencias */
+  .autocomplete li {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+
+  /* Estilo para resaltar el texto coincidente */
+  .match {
+    font-weight: bold;
+    color: #1a0dab; /* Cambia el color del texto coincidente */
+  }
+
+  /* Estilo para resaltar el elemento seleccionado */
+  .autocomplete li:hover {
+    background-color: #f5f5f5; /* Cambia el color de fondo al pasar el mouse */
+  }
+
+  .form-control {
+    border-bottom: 1px solid transparent;
+  }
+
+  #suggestions {
+    width: 31.5%; /* Establece el ancho al 100% */
+    list-style-type: none; /* Quita los puntos de la lista */
+    margin: 0; /* Quita el margen */
+    padding: 0; /* Quita el relleno */
+    z-index: 999; /* Asegura que esté por encima de otros elementos */
+    background-color: #fff; /* Color de fondo de la lista de sugerencias */
+    border: 1px solid #ccc; /* Borde de la lista de sugerencias */
+    border-top: none; /* Quita el borde superior */
+  }
+
+  /* Establece el estilo de cada elemento de la lista de sugerencias */
+  #suggestions li {
+    padding: 8px 10px; /* Relleno interno */
+    cursor: pointer; /* Cambia el cursor a una mano */
+    border-bottom: none;
+  }
+
+  /* Cambia el color de fondo cuando se pasa el mouse por encima */
+  #suggestions li:hover {
+    background-color: #f1f1f1; /* Color de fondo al pasar el mouse */
+  }
+
+
+  .Biblio{
+    font-size: 4.5vmax;
+    font-family:'Agrandir', sans-serif;
+    color:black;
+    -webkit-text-stroke: 0.3vmax black;
+    left: 79.5%;
+    transform: translate(-50%, -50%);
+}
+
+.Tec{
+  font-size: 4.5vmax;
+    font-family:'Agrandir', sans-serif;
+    color:#FF6100 ;
+    -webkit-text-stroke: 0.3vmax #FF6100 ;
+    left: 90%;
+    transform: translate(-70%, -50%);
+}

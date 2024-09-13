@@ -1,0 +1,47 @@
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('Agrandir.otf') format('otf');
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.cabeza {
+    background-color: #004aad;
+    height: 70px;
+    background-size: 40%;
+}
+
+.logor{
+    width: 55px;
+    text-decoration: none;
+    display: flex;
+    align-items: center; /* Alinea los elementos verticalmente */
+    text-decoration: none;
+}
+
+.logor h4 {
+    font-family: 'Agrandir', sans-serif;
+    font-size: 30px;
+    margin: 0; /* Elimina el margen por defecto del h4 */
+    color: white; /* Color del texto */
+    text-shadow: 1px 1px 0 black;
+    margin-left: 5px;
+}
+
+form{
+    background-color: #EFF5FE;
+    box-shadow: 3px 5px 10px #000000;
+    padding-bottom: 8px;
+}
+
+.tec{
+    color:#E38C08 ;
+}
+
+.ayuda{
+    font-size: 1vmax;
+}

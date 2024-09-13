@@ -1,0 +1,137 @@
+
+
+html, body {
+    margin: 0 ;
+    padding: 0;
+    }
+  
+
+  .content {
+    width: 100%;
+    min-height: 100vh; 
+    background-color: white; /* Cambia este color según tu preferencia */
+    overflow: hidden;
+  }
+
+
+  @font-face {
+    font-family: 'Agrandir';
+    src: url('Agrandir.otf') format('otf');
+}
+
+@media screen and (max-width: 1000px) {
+  .main{
+    width: 70%; 
+    height: 83%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1em; /* Reducir el espacio alrededor del formulario */
+  }
+}
+
+
+form {
+  width: auto; /* Cambiado a ancho automático */
+  box-sizing: border-box;
+  position: fixed;
+  top: 50%;
+  left: 24%;
+  transform: translate(-50%, -50%);
+  padding: 2em;
+  border: 1px solid #ccc;
+  background-color: #F5F5F5;
+  border-radius: 1em;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+#textoHola {
+  font-size: 12vm;
+  font-family: 'Agrandir', sans-serif;
+  color: #FF6100;
+  -webkit-text-stroke: 2px #FF6100;
+}
+
+.form-floating input[type="email"],
+.form-floating input[type="password"] {
+  margin-bottom: 1em; /* Añadido espacio entre los campos de entrada */
+}
+
+.letraform {
+    font-family: 'Agrandir', sans-serif;
+}
+
+.contenedor-boton {
+  display: flex;
+  justify-content: space-between; /* Esto coloca los elementos al principio y al final del contenedor */
+  align-items: center; /* Esto alinea verticalmente los elementos en el centro del contenedor */
+}
+
+  .v-line{
+    border-left: medium solid #5C82C2 ;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height:85%;
+    position: absolute;
+   }
+
+.logoflama{
+    top: 53%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    filter: drop-shadow(-2px 2px 15px rgba(0, 0, 0, 0.7));
+    
+}
+
+.Biblio{
+    font-size: 4.5vmax;
+    font-family:'Agrandir', sans-serif;
+    color:black;
+    -webkit-text-stroke: 0.3vmax black;
+    top: 53%;
+    left: 79.5%;
+    transform: translate(-50%, -50%);
+
+    position: absolute;
+}
+
+.Tec{
+  font-size: 4.5vmax;
+    font-family:'Agrandir', sans-serif;
+    color:#FF6100 ;
+    -webkit-text-stroke: 0.3vmax #FF6100 ;
+
+    top: 53%;
+    left: 90%;
+    transform: translate(-70%, -50%);
+
+    position: absolute;
+ 
+}
+
+
+.Bienvenido{
+    font-size: 3.5vmax;
+    font-family:'Agrandir', sans-serif;
+    color:#032D97 ;
+    -webkit-text-stroke: 1px #032D97   ;
+
+    top: 22%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+
+    position: absolute;
+}
+
+.Saber{
+    font-size: 1.5vmax;
+    font-family:'Agrandir', sans-serif;
+    color:#032D97;
+
+    top: 60%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+
+    position: absolute;
+}
