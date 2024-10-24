@@ -8,7 +8,7 @@ use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 
 // Nombre del archivo Excel
-$excelFile = 'Informe_BiblioTec.xlsx';
+$excelFile = 'Informe_ComparTec.xlsx';
 // Crear un nuevo objeto Spreadsheet
 $spreadsheet = new Spreadsheet();
 

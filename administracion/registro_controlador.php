@@ -99,13 +99,13 @@ try {
     $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('yvfeacostaca@ittepic.edu.mx', 'Dev-Bibliotec');
+    $mail->setFrom('yvfeacostaca@ittepic.edu.mx', 'Dev-ComparTec');
     $mail->addAddress($correo, $nombre." ".$apellidos);     //Add a recipient //Name is optional
     
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = "Verificacion de correo para BiblioTec.";
-    $mail->Body    = "Se ha registrado este correo en la plataforma Bibliotec <br>";
+    $mail->Subject = "Verificacion de correo para ComparTec.";
+    $mail->Body    = "Se ha registrado este correo en la plataforma ComparTec <br>";
     $mail->Body   .= "Para validar su registro use el siguiente codigo: <br>";
     $mail->Body   .= "$token <br><br>";
     $mail->Body   .= "Si no es el caso, haga caso omiso de este correo.<br>";

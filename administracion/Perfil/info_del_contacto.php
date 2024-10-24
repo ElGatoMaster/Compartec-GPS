@@ -138,7 +138,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"  && isset($_POST['notisLeidas'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BiblioTec - Home</title>
+    <title>ComparTec - Home</title>
 
     <!--En esta seccion se incluyen las hojas de estilos-->
     <link rel="icon" href="../../images\icons\tigerF.png"><!--Esta seccion de codigo agrega un icono a la pagina-->
@@ -200,7 +200,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"  && isset($_POST['notisLeidas'])) {
             <img src="../../images/icons/TecNM.png"  class="d-flex img-fluid" style="width: 145px; margin-right: 2.0vmax;">
             <img src="../../images/icons/tec.png" class="d-flex img-fluid" style="width: 60px;  margin-right: 2.0vmax;">
             <a href="" class="logo d-flex align-items-center mb-3 mb-md-0 link-body-emphasis text-decoration-none">
-                <img src="../../images/icons/flamita.png" alt="Logo T - BiblioTec" class="img-fluid">
+                <img src="../../images/icons/flamita.png" alt="Logo T - ComparTec" class="img-fluid">
                 <h4><b><span class="col-1">Biblio</span><span class="col-2">Tec</span></b></h4>
             </a>
             </div>
@@ -313,7 +313,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"  && isset($_POST['notisLeidas'])) {
             <!-- Contenido principal -->
             <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 main-content bg-body-secondary">
                 <div class="contenedor">
-                <h1 style="text-decoration: underline;">BiblioTec Support</h1><br>
+                <h1 style="text-decoration: underline;">ComparTec Support</h1><br>
             <h5 style="width: 160px;">
             <img src="..\..\images\icons\callcenter.png" style="max-width: 100%; height: auto;">
             </h5>
@@ -325,7 +325,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"  && isset($_POST['notisLeidas'])) {
             <hr noshade="noshade">
             <h7>
              Enviar al correo: 
-             <input id="correo" type="email" value="bibliotec.team@hotmail.com" readonly onclick="mostrarMensaje()">
+             <input id="correo" type="email" value="compartec.team@hotmail.com" readonly onclick="mostrarMensaje()">
              <br>
             </h7>
             <script>
@@ -392,7 +392,7 @@ function enviarCorreo() {
 
         <footer class="py-3 text-light bg-primary bg-opacity-75 border-top border-terciary border-4">
             <div class="container">
-                <p class="mb-0">&copy; 2024 BiblioTec - Todos los derechos reservados</p>
+                <p class="mb-0">&copy; 2024 ComparTec - Todos los derechos reservados</p>
             </div>
         </footer>
 </body>

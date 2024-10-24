@@ -21,14 +21,14 @@ session_start();
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     
-    <title>BiblioTec-Registro</title>
+    <title>ComparTec-Registro</title>
   </head>
   <body>
   <header class="bg-primary py-1">
     <div class="container">
       <!-- Logo y título -->
       <div class="logo">
-        <img src="../images/icons/flamita.png" alt="Logo T - BiblioTec" class="img-fluid mr-2">
+        <img src="../images/icons/flamita.png" alt="Logo T - ComparTec" class="img-fluid mr-2">
         <h4 class="mb-0"><b><span class="col-1">Biblio</span><span class="col-2">Tec</span></h4>
       </div>
     </div>

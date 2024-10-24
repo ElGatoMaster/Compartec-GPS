@@ -34,7 +34,7 @@ if (!isset($_SESSION["rol"])) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <title>BiblioTec - SingIn</title>
+  <title>ComparTec - SingIn</title>
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
@@ -121,13 +121,13 @@ if (!isset($_SESSION["rol"])) {
         </div>
         <!-- <button class="btn btn-primary w-100 mt-2" type="submit" id="letraform" style="--bs-btn-padding-y: 0.6rem;  --bs-btn-font-size:15px;" value="Login">Iniciar sesión</button>  -->
         <button type="button" class="btn btn-primary w-100 mt-2" id="login-btn" style="--bs-btn-padding-y: 0.6rem;  --bs-btn-font-size:15px;" value="Login">Iniciar sesión</button>
-        <p class="mt-2vmax mb-auto text-body-secondary" id="letraform">&copy; BiblioTec 2024</p>
+        <p class="mt-2vmax mb-auto text-body-secondary" id="letraform">&copy; ComparTec 2024</p>
       </form>
     </main>
 
     <div class="v-line"> </div>
 
-    <img src="images/icons/flamita.png" alt="Logo BiblioTec flamita" width="20%" height="39%" class="logoflama">
+    <img src="images/icons/flamita.png" alt="Logo ComparTec flamita" width="20%" height="39%" class="logoflama">
 
     <label class="Biblio">Biblio</label>
     <label class="Tec">Tec</label>

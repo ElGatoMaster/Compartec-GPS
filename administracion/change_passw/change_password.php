@@ -13,7 +13,7 @@ if(!isset($_SESSION['correo_ch'])){
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BiblioTec - Home</title>
+  <title>ComparTec - Home</title>
   <!--En esta seccion se incluyen las hojas de estilos-->
   <link rel="icon" href="../../images/icons/tigerF.png"><!--Esta seccion de codigo agrega un icono a la pagina-->
   <link rel="stylesheet" href="../../css/normalizar.css">
@@ -67,7 +67,7 @@ if(!isset($_SESSION['correo_ch'])){
     <div class="container d-flex align-items-center">
       <!-- Logo y título -->
       <div class="logo">
-        <img src="../../images/icons/flamita.png" alt="Logo T - BiblioTec" class="img-fluid mr-2">
+        <img src="../../images/icons/flamita.png" alt="Logo T - ComparTec" class="img-fluid mr-2">
         <h4 class="mb-0"><b><span class="col-1">Biblio</span><span class="col-2">Tec</span></h4>
       </div>
     </div>

@@ -98,7 +98,7 @@ if(isset($_GET["logout"]) && $_GET["logout"] === "true") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bibliotec - Reporte comentario</title>
+    <title>ComparTec - Reporte comentario</title>
 
    
 
@@ -146,7 +146,7 @@ if(isset($_GET["logout"]) && $_GET["logout"] === "true") {
       <img src="../../images/icons/TecNM.png"  class="d-flex img-fluid" style="width: 145px; margin-right: 2.0vmax;">
       <img src="../../images/icons/tec.png" class="d-flex img-fluid" style="width: 60px;  margin-right: 2.0vmax;">
       <a href="" class="logo d-flex align-items-center mb-3 mb-md-0 link-body-emphasis text-decoration-none">
-        <img src="../../images/icons/flamita.png" alt="Logo T - BiblioTec" class="img-fluid" style = "margin-right: 0.5vmax;">
+        <img src="../../images/icons/flamita.png" alt="Logo T - ComparTec" class="img-fluid" style = "margin-right: 0.5vmax;">
         <h4><span class="col-1 ">Biblio</span>
         <span class="col-2">Tec<span class="col-1"> - Administrador</span></span></h4>
       </a>
@@ -182,7 +182,7 @@ if(isset($_GET["logout"]) && $_GET["logout"] === "true") {
                     </li>
                     <hr class="my-2"> <!-- Línea divisora -->
                     <li class="mb-1">
-                        <a class="nav-link align-items-center" href="stats.php" id="letrabardos" style="margin-left:10px">Estadísticas de BiblioTec</a>
+                        <a class="nav-link align-items-center" href="stats.php" id="letrabardos" style="margin-left:10px">Estadísticas de ComparTec</a>
                     </li>
                 </ul>
             </div>
@@ -307,7 +307,7 @@ if(isset($_GET["logout"]) && $_GET["logout"] === "true") {
             
     <footer class="bg-primary py-2 bg-opacity-75 border-top border-terciary border-4 py-3 text-light bg-primary">
         <div class="container" >
-            <p class="mb-1">&copy; 2024 BiblioTec - Todos los derechos reservados</p>
+            <p class="mb-1">&copy; 2024 ComparTec - Todos los derechos reservados</p>
         </div>
     </footer>
 </body>

@@ -29,7 +29,7 @@ session_start();
         <div class="container d-flex align-items-center">
             <!-- Logo y título -->
             <div class="logo">
-                <img src="../../images/icons/flamita.png" alt="Logo T - BiblioTec" class="img-fluid mr-2">
+                <img src="../../images/icons/flamita.png" alt="Logo T - ComparTec" class="img-fluid mr-2">
                 <h4 class="mb-0"><b><span class="col-1">Biblio</span><span class="col-2">Tec</span></h4>
             </div>
         </div>

@@ -97,7 +97,7 @@ mysqli_close($link);
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BiblioTec - Home</title>
+  <title>ComparTec - Home</title>
 
   <!--En esta seccion se incluyen las hojas de estilos-->
   <link rel="icon" href="images/icons/tigerF.png"><!--Esta seccion de codigo agrega un icono a la pagina-->
@@ -139,8 +139,8 @@ mysqli_close($link);
       <img src="images/icons/TecNM.png"  class="d-flex img-fluid" style="width: 145px; margin-right: 2.0vmax;">
       <img src="images/icons/tec.png" class="d-flex img-fluid" style="width: 60px;  margin-right: 2.0vmax;">
       <a href="" class="logo d-flex align-items-center mb-3 mb-md-0 link-body-emphasis text-decoration-none">
-        <img src="images/icons/flamita.png" alt="Logo T - BiblioTec" class="img-fluid">
-        <h4><b><span class="col-1">Biblio</span><span class="col-2">Tec</span></b></h4>
+        <img src="images/icons/flamita.png" alt="Logo T - ComparTec" class="img-fluid">
+        <h4><b><span class="col-1">Compar</span><span class="col-2">Tec</span></b></h4>
       </a>
     </div>
     <form action="administracion/general_search.php" method="GET" id="searchForm" class="d-flex search-field">
@@ -267,7 +267,7 @@ mysqli_close($link);
         <div class="card mb-5">
             <img src="images/icons/2.jpg" class="card-img-top" >
             <div class="card-body">
-              <h5 class="card-title">BiblioTec e Instituto Tecnologico de Tepic</h5>
+              <h5 class="card-title">ComparTec e Instituto Tecnologico de Tepic</h5>
               <p class="card-text">Colaboramos estrechamente con nuestra institución tecnológica para proporcionar la información
                  más completa posible. ¡Todos para uno y uno para todos, comparte tu conocimiento!</p>
               <p class="card-text"><small class="text-body-secondary">&copy; 2024</small></p>
@@ -310,7 +310,7 @@ mysqli_close($link);
   <footer class="bg-primary py-2 bg-opacity-75 border-top border-terciary border-4 d-flex  align-items-center py-4.5 text-light bg-primary">
     <div></div>
     <div class="container mb-3 mt-3">
-      <p class="mb-2 mt-2">&copy; 2024 BiblioTec - Todos los derechos reservados</p>
+      <p class="mb-2 mt-2">&copy; 2024 ComparTec - Todos los derechos reservados</p>
     </div>
   </footer>
 
