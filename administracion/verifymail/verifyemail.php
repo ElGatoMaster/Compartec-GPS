@@ -33,7 +33,7 @@ $_SESSION['enviarCorreo']=$correo;
         <div class="cabeza navbar-brand">
           <a  class="logor">
             <img src="../../images/icons/flamita.png" alt="Logo ComparTec" class="img-fluid mr-1">
-            <h4 class="mb-0"><b><span class="col-1">Biblio</span><span class="col-3 tec">Tec</span></h4>
+            <h4 class="mb-0"><b><span class="col-1">Compar</span><span class="col-3 tec">Tec</span></h4>
           </a>
         </div>
     </div>

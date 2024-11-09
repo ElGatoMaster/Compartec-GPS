@@ -29,7 +29,7 @@ session_start();
       <!-- Logo y título -->
       <div class="logo">
         <img src="../images/icons/flamita.png" alt="Logo T - ComparTec" class="img-fluid mr-2">
-        <h4 class="mb-0"><b><span class="col-1">Biblio</span><span class="col-2">Tec</span></h4>
+        <h4 class="mb-0"><b><span class="col-1">Compar</span><span class="col-2">Tec</span></h4>
       </div>
     </div>
   </header>

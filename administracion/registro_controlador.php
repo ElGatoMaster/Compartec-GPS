@@ -93,13 +93,13 @@ try {
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'yvfeacostaca@ittepic.edu.mx';                     //SMTP username yvfeacostaca@ittepic.edu.mx
-    $mail->Password   = 'AOCY030214HBCCRVA8';                               //SMTP password 
+    $mail->Username   = 'marianarva222@gmail.com';//'yvfecacosta@ittepic.edu.mx';                     //SMTP username yvfeacostaca@ittepic.edu.mx
+    $mail->Password   = 'ipfo brqk thwy swpu';//'AOCY030214HBCCRVA8';                               //SMTP password 
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;            //Enable implicit TLS encryption
     $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('yvfeacostaca@ittepic.edu.mx', 'Dev-ComparTec');
+    $mail->setFrom('marianarva222@gmail.com', 'Dev-ComparTec');
     $mail->addAddress($correo, $nombre." ".$apellidos);     //Add a recipient //Name is optional
     
     //Content
@@ -118,7 +118,7 @@ try {
 } catch (Exception $e) {
     echo "Ha ocurrido un error: ".$e;
     echo '<script>
-        alert("Ha ocurrido un error: ");
+        alert("Ha ocurrido un error: :(");
         
     </script>';//window.location = "register.php";
 }

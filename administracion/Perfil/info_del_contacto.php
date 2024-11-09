@@ -40,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['mensaje'])) {
     // Correo del remitente y destinatario
 
 
-    $remitente = 'administracion@bibliotec.website';
+    $remitente = 'administracion@bibliotec.website';//CAMBIAR ESTO
     $destinatario = 'administracion@bibliotec.website';
 
     // Mensaje obtenido del formulario

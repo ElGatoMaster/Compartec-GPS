@@ -209,7 +209,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
       <img src="../../images/icons/tec.png" class="d-flex img-fluid" style="width: 60px;  margin-right: 2.0vmax;">
       <a href="" class="logo d-flex align-items-center mb-3 mb-md-0 link-body-emphasis text-decoration-none">
         <img src="../../images/icons/flamita.png" alt="Logo T - ComparTec" class="img-fluid" style = "margin-right: 0.5vmax;">
-        <h4><span class="col-1 ">Biblio</span>
+        <h4><span class="col-1 ">Compar</span>
         <span class="col-2">Tec<span class="col-1"> - Administrador</span></span></h4>
       </a>
     </div>

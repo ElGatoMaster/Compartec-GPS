@@ -30,27 +30,28 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Generar un código aleatorio de 6 dígitos
             //ENVIO DE CORREO USANDO PHPMAILER :,v
             $mail = new PHPMailer(true);
-            $site = 'https://bibliotec.website/administracion/change_passw/change_password.php';
+            //CAMBIAR ESTO
+            $site = 'https://bibliotec.website/administracion/change_passw/change_password.php'; 
 
             try {
                 //Server settings
                 $mail->SMTPDebug = 0;                      //Enable verbose debug output
                 $mail->isSMTP();                                            //Send using SMTP
-                $mail->Host       = 'smtp.hostinger.com';                     //Set the SMTP server to send through
+                $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
                 $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-                $mail->Username   = 'administracion@bibliotec.website';                     //SMTP username
-                $mail->Password   = 'BiBliotec0027#';                               //SMTP password
+                $mail->Username   = 'marianarva222@gmail.com';//'administracion@bibliotec.website';                     //SMTP username
+                $mail->Password   = 'ipfo brqk thwy swpu';//'BiBliotec0027#';                               //SMTP password
                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;            //Enable implicit TLS encryption
                 $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
                 //Recipients
-                $mail->setFrom('administracion@bibliotec.website', 'Dev-Bibliotec');
+                $mail->setFrom('marianarva222@gmail.com', 'Dev-ComparTec');
                 $mail->addAddress($email, $nombre." ".$apellidos);       //Add a recipient //Name is optional
 
                 //Content
                 // Content
                 $mail->isHTML(true); // Set email format to HTML
-                $mail->Subject = "Confirmación de cambio de contraseña para usuario BiblioTec";
+                $mail->Subject = "Confirmación de cambio de contraseña para usuario ComparTec";
 
                 // Cuerpo del correo con estilos CSS
                 $mail->Body =  "<div style='font-family: Arial, sans-serif; padding: 7px;'>
@@ -71,7 +72,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </p>
         <p>Si no solicitó este cambio de contraseña, puede ignorar este correo.</p>
         <hr style='border: 1px solid #ccc; margin-top: 40px;'>
-        <p style='text-align: center; color: #888;'>BiblioTec - Conéctate con el Saber</p>
+        <p style='text-align: center; color: #888;'>ComparTec - Conéctate con el Saber</p>
     </div>
 ";
 
