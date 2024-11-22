@@ -90,7 +90,7 @@ form {
     color:black;
     -webkit-text-stroke: 0.3vmax black;
     top: 53%;
-    left: 79.5%;
+    left: 80%;
     transform: translate(-50%, -50%);
 
     position: absolute;
@@ -103,7 +103,7 @@ form {
     -webkit-text-stroke: 0.3vmax #FF6100 ;
 
     top: 53%;
-    left: 90%;
+    left: 93%;
     transform: translate(-70%, -50%);
 
     position: absolute;

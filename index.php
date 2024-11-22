@@ -127,9 +127,9 @@ if (!isset($_SESSION["rol"])) {
 
     <div class="v-line"> </div>
 
-    <img src="images/icons/flamita.png" alt="Logo ComparTec flamita" width="20%" height="39%" class="logoflama">
+    <img src="images/icons/flamita.png" alt="Logo ComparTec flamita" width="17%" height="39%" class="logoflama">
 
-    <label class="Biblio">Compar</label>
+    <label class="Biblio ">Compar</label>
     <label class="Tec">Tec</label>
     <label class="Bienvenido">Bienvenido a</label>
     <label class="Saber">Conectate con el saber...</label>

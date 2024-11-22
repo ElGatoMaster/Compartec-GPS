@@ -40,8 +40,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['mensaje'])) {
     // Correo del remitente y destinatario
 
 
-    $remitente = 'administracion@bibliotec.website';//CAMBIAR ESTO
-    $destinatario = 'administracion@bibliotec.website';
+    $remitente = 'marianarva222@gmail.com';//CAMBIAR ESTO
+    $destinatario = 'marianarva222@gmail.com';
 
     // Mensaje obtenido del formulario
     $mensaje = $_POST['mensaje'];
@@ -55,7 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['mensaje'])) {
         $mail->Host       = 'smtp.hostinger.com'; // Servidor SMTP para Hotmail
         $mail->SMTPAuth   = true;
         $mail->Username   = $remitente; // Correo del remitente
-        $mail->Password   = 'BiBliotec0027#'; // Contraseña del remitente (reemplaza con tu contraseña)
+        $mail->Password   = 'ipfo brqk thwy swpu'; // Contraseña del remitente (reemplaza con tu contraseña)
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
 
@@ -201,7 +201,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"  && isset($_POST['notisLeidas'])) {
             <img src="../../images/icons/tec.png" class="d-flex img-fluid" style="width: 60px;  margin-right: 2.0vmax;">
             <a href="" class="logo d-flex align-items-center mb-3 mb-md-0 link-body-emphasis text-decoration-none">
                 <img src="../../images/icons/flamita.png" alt="Logo T - ComparTec" class="img-fluid">
-                <h4><b><span class="col-1">Biblio</span><span class="col-2">Tec</span></b></h4>
+                <h4><b><span class="col-1">Compar</span><span class="col-2">Tec</span></b></h4>
             </a>
             </div>
             <form action="../general_search.php" method="GET" id="searchForm" class="d-flex search-field">

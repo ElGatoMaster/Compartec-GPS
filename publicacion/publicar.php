@@ -153,7 +153,7 @@ mysqli_close($link);
       <img src="../images/icons/tec.png" class="d-flex img-fluid" style="width: 60px;  margin-right: 2.0vmax;">
       <a href="" class="logo d-flex align-items-center mb-3 mb-md-0 link-body-emphasis text-decoration-none">
         <img src="../images/icons/flamita.png" alt="Logo T - ComparTec" class="img-fluid">
-        <h4><b><span class="col-1">Biblio</span><span class="col-2">Tec</span></b></h4>
+        <h4><b><span class="col-1">Compar</span><span class="col-2">Tec</span></b></h4>
       </a>
     </div>
     <form action="../administracion/general_search.php" method="GET" id="searchForm" class="d-flex search-field">
