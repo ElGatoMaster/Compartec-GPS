@@ -190,6 +190,16 @@ if(isset($_GET["logout"]) && $_GET["logout"] === "true") {
                           </ul>
                         </div>
                       </li>
+                      <li class="mb-2 mx-3">
+                  <a href="admin_materias.php" class="nav-link align-items-center" id="letrabardos" style="margin: left 10px;">
+                    Administrar Materias
+                  </a>
+                </li>
+                <li class="mb-1">
+                    <button class="btn d-inline-flex align-items-center rounded border-0 collapsed" id="letrabardos" style="color: black; font-weight: bold;">
+                    <a class="nav-link align-items-center" href="admin_addAdmin.php" id="letrabar">Administradores</a>
+                    </button>
+                </li>
                     <hr class="my-2"> <!-- Línea divisora -->
                     <li class="mb-1">
                         <button class="btn d-inline-flex align-items-center rounded border-0 collapsed" id="letrabardos" style="color: black; font-weight: bold;">

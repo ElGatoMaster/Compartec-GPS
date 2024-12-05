@@ -6,7 +6,7 @@ $link = include('conexion.php'); // Incluye el archivo de conexión y obtén la 
 $nomCarrera = $_POST ['nomCarrera'];
 
 $consultaM = "SELECT nomMateria FROM materia WHERE 
-       nomCarrera = '$nomCarrera'";
+       nomCarrera = '$nomCarrera' AND estadoMateria = 1";
 
 $resM = mysqli_query($link,$consultaM); // Utiliza la conexión obtenida desde el archivo de conexión
 

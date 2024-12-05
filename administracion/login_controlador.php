@@ -63,7 +63,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
 
         // Preparar la consulta para la tabla 'administrador'
-        $sql_administrador = "SELECT contra_Admin FROM administrador WHERE correo_Admin = ?";
+        $sql_administrador = "SELECT contra_Admin FROM administrador WHERE correo_Admin = ? AND estado_Admin = 1";
         
         if($stmt = $conn->prepare($sql_administrador)){
             // Vincular variables a la declaración preparada como parámetros

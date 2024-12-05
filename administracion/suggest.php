@@ -6,7 +6,7 @@ $input = $_GET['input'];
 $carrera = $_GET['carrera'];
 
 $consulta = "SELECT nomMateria FROM materia WHERE nomCarrera = '$carrera' 
-AND nomMateria LIKE '%$input%'";
+AND nomMateria LIKE '%$input%' AND estadoMateria = 1";
 $resultado = mysqli_query($link, $consulta);
 
 // Construir la lista de sugerencias
